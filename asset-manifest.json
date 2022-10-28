@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/municipality-of-slr/static/css/main.7ac57182.css",
-    "main.js": "/municipality-of-slr/static/js/main.d6ee3212.js",
-    "static/js/787.53776b72.chunk.js": "/municipality-of-slr/static/js/787.53776b72.chunk.js",
-    "static/media/sample_logo.png": "/municipality-of-slr/static/media/sample_logo.598cf41bd0ad2f7d0592.png",
-    "static/media/thrill.jpg": "/municipality-of-slr/static/media/thrill.e0a79fee7e6e2b12424c.jpg",
-    "static/media/gray-bg.jpg": "/municipality-of-slr/static/media/gray-bg.5f0bde3cab5f3d37d718.jpg",
-    "index.html": "/municipality-of-slr/index.html",
-    "main.7ac57182.css.map": "/municipality-of-slr/static/css/main.7ac57182.css.map",
-    "main.d6ee3212.js.map": "/municipality-of-slr/static/js/main.d6ee3212.js.map",
-    "787.53776b72.chunk.js.map": "/municipality-of-slr/static/js/787.53776b72.chunk.js.map"
+    "main.css": "/municipal-government-app/static/css/main.7227dfc7.css",
+    "main.js": "/municipal-government-app/static/js/main.e3ca2939.js",
+    "static/js/787.53776b72.chunk.js": "/municipal-government-app/static/js/787.53776b72.chunk.js",
+    "static/media/sample_logo.png": "/municipal-government-app/static/media/sample_logo.598cf41bd0ad2f7d0592.png",
+    "static/media/thrill.jpg": "/municipal-government-app/static/media/thrill.e0a79fee7e6e2b12424c.jpg",
+    "static/media/gray-bg.jpg": "/municipal-government-app/static/media/gray-bg.5f0bde3cab5f3d37d718.jpg",
+    "index.html": "/municipal-government-app/index.html",
+    "main.7227dfc7.css.map": "/municipal-government-app/static/css/main.7227dfc7.css.map",
+    "main.e3ca2939.js.map": "/municipal-government-app/static/js/main.e3ca2939.js.map",
+    "787.53776b72.chunk.js.map": "/municipal-government-app/static/js/787.53776b72.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ac57182.css",
-    "static/js/main.d6ee3212.js"
+    "static/css/main.7227dfc7.css",
+    "static/js/main.e3ca2939.js"
   ]
 }
