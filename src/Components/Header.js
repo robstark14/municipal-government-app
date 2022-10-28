@@ -1,15 +1,17 @@
 import React from "react";
-// import Navbar from "./Navbar";
+
 import Fade from "react-reveal/Fade";
-import Navbar from "./Navbar";
+import AboutCounter from "./AboutCounter";
+
 
 function Header() {
   return (
-    <div className="w-full lg:px-28 lg:h-screen overflow-hidden bg-[url('../public/images/thrill.jpg')] bg-no-repeat bg-[length:400px_300px] md:bg-[length:700px_500px] bg-fixed bg-left md:bg-right-bottom z-10">
+    <div className="bg-white w-full lg:px-28 lg:h-screen overflow-hidden md:bg-[url('../public/images/thrill.jpg')] bg-no-repeat bg-[length:400px_300px] md:bg-[length:700px_500px] bg-bottom md:bg-right z-10">
      {/* <Navbar className="z-999" /> */}
-      <div className="lg:flex lg:pt-32">
+      <div className="lg:flex lg:pt-10">
         <Fade left cascade>
-          <div className="lg:w-[800px] container pt-[500px] xl:pt-24 lg:pt-10 md:pt-80">
+          <div className="lg:w-[800px] container pt-[500px] pt-20 xl:pt-24 lg:pt-10 md:pt-80 font-Lora">
+            <img src="/images/thrill.jpg" alt="" className="block md:hidden"/>
             <h1 className="px-2 font-[1000] xl:text-[4.2rem] lg:text-[3rem] md:text-[3.2rem] text-3xl lg:w-[79%] text-stone-300 xl:leading-[5rem] md:leading-[4rem]">
               Welcome to{" "} <br/>
               <span className="text-transparent bg-clip-text bg-black drop-shadow-2xl ">
@@ -26,6 +28,7 @@ function Header() {
             </div>
           </div>
         </Fade>
+        
       </div>
     </div>
   );

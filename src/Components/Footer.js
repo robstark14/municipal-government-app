@@ -8,7 +8,7 @@ import Fade from "react-reveal/Fade";
 
 function Footer() {
   return (
-    <div className="bg-[#211D32]   lg:px-28 pt-14 px-10 pb-10">
+    <div className="bg-stone-800  lg:px-28 pt-14 px-10 pb-10">
       <Fade bottom cascade>
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-20">
           <div>
@@ -65,7 +65,7 @@ function Footer() {
           </div>
 
           <div>
-            <div>
+            {/* <div>
               <h2 className="text-white font-semibold lg:text-xl md:pt-4 pt-4">
                 Newsletter
               </h2>
@@ -86,7 +86,7 @@ function Footer() {
                   Submit
                 </button>
               </div>
-            </div>
+            </div> */}
 
             <div className="flex justify-end pt-5 gap-4 socials">
               <div className="relative overflow-hidden block footer-div cursor-pointer">

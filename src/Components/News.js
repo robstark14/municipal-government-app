@@ -1,13 +1,14 @@
 import React from 'react'
 import Fade from "react-reveal/Fade";
 
-function Blog() {
+function News() {
   return (
-    <div className="pt-14   lg:px-28 px-10 pb-10">
+    <div className="pt-14 bg-white lg:px-28 px-10 pb-10 ">
       <Fade bottom cascade>
-        <h1 className="text-center text-black text-3xl pb-14">
+      <h1 className="text-black text-4xl pb-2 font-bold uppercase text-left">
           Latest News
         </h1>
+        <div className='h-[5px] bg-black mb-14'></div>
         {/* <p className="text-[#696984] pt-3 text-center pb-14">
           Trusted by 5000+ companies worldwide.
         </p> */}
@@ -87,4 +88,4 @@ function Blog() {
   );
 }
 
-export default Blog
+export default News

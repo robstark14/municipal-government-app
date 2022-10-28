@@ -4,7 +4,7 @@ import { Carousel } from "react-responsive-carousel";
 
 
 
-function CarouselDemo() {
+function CarouselProjects() {
   return (
     <div className="w-full pt-10">
       <Carousel className="carousel">
@@ -65,4 +65,4 @@ function CarouselDemo() {
   
 }
 
-export default CarouselDemo
+export default CarouselProjects

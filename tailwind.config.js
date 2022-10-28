@@ -9,9 +9,16 @@ module.exports = {
       backgroundImage: {
         // 'hero_view': "url('./images/view.jpg')",
 
+      },
+      fontFamily: {
+        Lora: ['Lora', 'serif']
+
       }
 
     },
+  },
+  variants: {
+    display:['group-hover']
   },
   plugins: [],
 }
