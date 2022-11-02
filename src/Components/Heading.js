@@ -15,8 +15,8 @@ function Heading() {
     <div className='w-screen grid text-center justify-items-center md:text-right md:flex lg:flex bg-stone-800 text-white py-2 px-[50px] md:items-center md:justify-between text-sm shadow-lg' id='heading'>
       <div className='grid items-center justify-items-center md:flex lg:flex  justify-between mx-0 md:mx-auto lg:mx-0'>
         <img src={Head} alt="" />
-        <span className='ml-2'>GOVPH</span>
-        <p className='text-[11px] ml-6'>Official Website of the Municipality of San Lorenzo Ruiz</p>
+        <span className='md:ml-2'>GOVPH</span>
+        <p className='text-[11px] md:ml-6'>Official Website of the Municipality of San Lorenzo Ruiz</p>
       </div>
       <div className='grid items-center justify-items-center md:flex lg:flex mx-auto md:mx-0 lg:mx-0'>
         <div className='flex w-fit'>
@@ -24,10 +24,10 @@ function Heading() {
           <a href="#" className='ml-2 text-[11px]'>sanlorenzoruiz.lgu@gmail.com</a>
         </div>
         <div className='flex w-fit'>
-          <AiOutlinePhone className='ml-2 text-[15px]'/>
+          <AiOutlinePhone className='md:ml-2 text-[15px]'/>
           <p className='ml-2 text-[11px]'>+63 921 845 2802</p>
         </div>
-        <div className='flex justify-end items-center gap-4 socials ml-4 w-fit'>
+        <div className='flex justify-end items-center gap-4 socials md:ml-4 w-fit'>
           <div className="relative overflow-hidden block footer-div cursor-pointer">
             <span className="block ">
               <GrFacebookOption className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />

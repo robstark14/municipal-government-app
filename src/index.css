@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import "~react-image-gallery/styles/css/image-gallery.css";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

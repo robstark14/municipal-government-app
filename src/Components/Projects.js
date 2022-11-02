@@ -1,13 +1,28 @@
 import React from 'react'
 import CarouselProjects from './CarouselProjects';
 // import CarouselProjects from './NewCarousel';
+import ImageGallery from 'react-image-gallery';
 
 import Fade from "react-reveal/Fade";
 
 function Projects() {
+  const images = [
+    {
+      original: 'https://picsum.photos/id/1018/1000/600/',
+      thumbnail: 'https://picsum.photos/id/1018/250/150/',
+    },
+    {
+      original: 'https://picsum.photos/id/1015/1000/600/',
+      thumbnail: 'https://picsum.photos/id/1015/250/150/',
+    },
+    {
+      original: 'https://picsum.photos/id/1019/1000/600/',
+      thumbnail: 'https://picsum.photos/id/1019/250/150/',
+    },
+  ];
   return (
-    <div className='bg-gray-100'>
-      
+    <div className='bg-gray-200 w-full h-[700px] overflow-scroll'>
+      <ImageGallery items={images} />
       {/* <div className="lg:px-28 px-10 pb-10" id="projects">
         <div className="grid lg:grid-cols-2 grid-cols-1 xl:gap-[51rem] lg:gap-[31rem]">
           <Fade bottom cascade>
@@ -30,7 +45,7 @@ function Projects() {
           </Fade>
         </div>
       </div> */}
-      <CarouselProjects />
+      {/* <CarouselProjects /> */}
       {/*Carousel*/}
     </div>
   );
