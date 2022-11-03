@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/municipal-government-app/static/css/main.d070ac17.css",
-    "main.js": "/municipal-government-app/static/js/main.c9b73906.js",
+    "main.js": "/municipal-government-app/static/js/main.ff857820.js",
     "static/js/787.53776b72.chunk.js": "/municipal-government-app/static/js/787.53776b72.chunk.js",
     "static/media/sample_logo.png": "/municipal-government-app/static/media/sample_logo.598cf41bd0ad2f7d0592.png",
     "index.html": "/municipal-government-app/index.html",
     "main.d070ac17.css.map": "/municipal-government-app/static/css/main.d070ac17.css.map",
-    "main.c9b73906.js.map": "/municipal-government-app/static/js/main.c9b73906.js.map",
+    "main.ff857820.js.map": "/municipal-government-app/static/js/main.ff857820.js.map",
     "787.53776b72.chunk.js.map": "/municipal-government-app/static/js/787.53776b72.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d070ac17.css",
-    "static/js/main.c9b73906.js"
+    "static/js/main.ff857820.js"
   ]
 }
