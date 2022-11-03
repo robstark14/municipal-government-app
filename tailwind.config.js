@@ -6,13 +6,18 @@ module.exports = {
   ],
   theme: {
     extend: {
+      padding: { "fluid-video": "56.25%" },
       backgroundImage: {
         // 'hero_view': "url('./images/view.jpg')",
 
       },
       fontFamily: {
         Lora: ['Lora', 'serif'],
-        Josefin: ['Josefin', 'sans-serif']
+        Josefin: ['Josefin', 'sans-serif'],
+        Cabin: ['Cabin', 'sans-serif'],
+        Montserrat: ['Montserrat', 'sans-serif'],
+
+
       },
       colors: {
         firstNav: "#1d1d21",
@@ -26,6 +31,8 @@ module.exports = {
         modalBgWindow: "#333",
         lightGray: "#f5f5f5",
         textGray: "#777",
+        blueRgba:"rgba(0, 6, 53, 0.79)",
+        darkBlue: "#182144",
       },
       maxWidth: {
         "6xl": "1120px",

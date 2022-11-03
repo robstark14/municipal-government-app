@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 // import { Carousel } from "react-bootstrap";
 
-function Slider() {
+function Slider({ref, executeScroll}) {
+  
   return (
     <div className="relative">
       <div id="carouselExampleIndicators" className="carousel slide relative" data-bs-ride="carousel">
@@ -43,35 +45,35 @@ function Slider() {
         <div className="carousel-inner relative w-full overflow-hidden">
           <div className="carousel-item active float-left w-full">
             <img
-                  src="https://firebasestorage.googleapis.com/v0/b/san-lorenzo-ruiz-landing.appspot.com/o/photos%2FTourism%2Fzip-line3.webp?alt=media&token=968f37ed-12b6-4419-9c60-6353aee1da37"
+                  src="https://res.cloudinary.com/dsmtfnutw/image/upload/v1667478089/San%20Lorenzo%20Ruiz%20App/IMAGES/Tourism/slider/zip-line3_b1gzjf.webp"
                   className="block w-full"
               
             />
           </div>
           <div className="carousel-item float-left w-full">
             <img
-                  src="https://firebasestorage.googleapis.com/v0/b/san-lorenzo-ruiz-landing.appspot.com/o/photos%2FTourism%2Fmampurog3.jpg?alt=media&token=26426733-70be-4ea5-86ee-030ca0003f6d"
+                  src="https://res.cloudinary.com/dsmtfnutw/image/upload/v1667478031/San%20Lorenzo%20Ruiz%20App/IMAGES/Tourism/slider/mampurog2_i9b0kc.jpg"
                   className="block w-full"
               
             />
           </div>
           <div className="carousel-item float-left w-full">
             <img
-            src="https://firebasestorage.googleapis.com/v0/b/san-lorenzo-ruiz-landing.appspot.com/o/photos%2FTourism%2Fplaces%2Fmapurog2.jpg?alt=media&token=ee6dc2b7-46bc-4a84-abed-f021206e4b3f"
+            src="https://res.cloudinary.com/dsmtfnutw/image/upload/v1667478483/San%20Lorenzo%20Ruiz%20App/IMAGES/Tourism/slider/nacali-falls_fov1kv.jpg"
             className="block w-full"
               
             />
           </div>
           <div className="carousel-item float-left w-full">
             <img
-            src="https://firebasestorage.googleapis.com/v0/b/san-lorenzo-ruiz-landing.appspot.com/o/photos%2FTourism%2Fmampurog2.jpg?alt=media&token=7c8cd803-0418-4fc8-8981-5fafb3ca5b84"
+            src="https://res.cloudinary.com/dsmtfnutw/image/upload/v1667478144/San%20Lorenzo%20Ruiz%20App/IMAGES/Tourism/slider/env-park_e7ylyz.jpg"
             className="block w-full"
               
             />
           </div>
           <div className="carousel-item float-left w-full">
             <img
-            src="https://firebasestorage.googleapis.com/v0/b/san-lorenzo-ruiz-landing.appspot.com/o/photos%2FTourism%2Fplaces%2Fenv-park.jpg?alt=media&token=154e70d6-3752-4843-a123-c692af31ef82"
+            src="https://res.cloudinary.com/dsmtfnutw/image/upload/v1667477983/San%20Lorenzo%20Ruiz%20App/IMAGES/Tourism/slider/mampurog3_pg4lev.jpg"
             className="block w-full"
               
             />
@@ -104,9 +106,12 @@ function Slider() {
         {/* <h3 className="text-shadow-subtitle mt-15px mb-4 md:text-2xl smMd:text-xl text-3vw font-medium"> */}
           {/* Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, amet.  */}
         {/* </h3> */}
-        <Link to="#places" className="bg-rose-700 mt-1 py-2 px-6 rounded md:text-base smMd:text-sm text-xs uppercase tracking-wider ">
+        <HashLink className="bg-rose-700 mt-1 py-2 px-6 rounded md:text-base smMd:text-sm text-xs uppercase tracking-wider "
+          smooth
+          to="#places"
+        >
           Explore
-        </Link>
+        </HashLink>
       </div>
     </div>
   );

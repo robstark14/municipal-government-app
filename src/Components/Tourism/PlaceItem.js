@@ -9,8 +9,8 @@ function PlaceItem({place_name, image, activity, id}) {
     const {placeId} = useParams()
     return (
       
+        <Fade bottom cascade>
       <Link to={`/places/${id}`} className="rounded-t-xl h-[310px] mx-[0.65rem] overflow-hidden my-[1rem] bg-white flex flex-col gap-[0.2rem] hover:cursor-pointer shadow-md hover:shadow-xl ease-out">
-        {/* <Fade bottom cascade> */}
           <img
             className={`h-full object-cover object-center duration-500 hover:scale-125 `}
             src={image}
@@ -25,8 +25,8 @@ function PlaceItem({place_name, image, activity, id}) {
             </div> */}
             <p className="text-[#4b57a5] text-[15px] italic">{activity} </p>
           </div>
-          {/* </Fade> */}
         </Link>
+          </Fade>
       );
 }
 

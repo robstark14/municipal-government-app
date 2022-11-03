@@ -9,7 +9,7 @@ const NavLinks = () => {
     <>
       {links.map((link) => (
         <div key={link.name}>
-          <div className="text-left md:cursor-pointer group bg-gray-100">
+          <div className="text-left md:cursor-pointer group bg-[#182144] font-Cabin">
             <h1
               className="py-4 flex justify-between items-center md:pr-0 pr-5 group "
               // hover:text-stone-700 relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-stone-700 before:hover:scale-x-100 before:scale-x-0 before:origin-top-left before:transition before:ease-in-out before:duration-300
@@ -40,14 +40,14 @@ const NavLinks = () => {
                     mt-1 bg-gray-100 rotate-45 shadow-lg z-10 border"
                     ></div>
                   </div>
-                  <div className="bg-gray-100 p-5 grid gap-2 shadow-lg border z-[9999] relative">
+                  <div className="bg-gray-100 p-5 grid shadow-lg border z-[9999] relative w-[300px] rounded-lg">
                     {link.sublinks.map((mysublinks) => (
                       <div className={`${mysublinks.sublinkDrop?"hover:cursor-none":"hover:cursor-pointer hover:bg-gray-300"} rounded p-2 border-b`}>
-                       <Link className="lowercase capitalize" to={mysublinks.HeadLink}>
+                       <Link className="lowercase capitalize text-[#25326b] text-[13px font-Cabin]" to={mysublinks.HeadLink}>
                           {mysublinks.Head}
                         </Link>
                         {mysublinks.sublinkDrop && mysublinks.sublink.map((slink) => (
-                          <li className="text-sm text-gray-600 my-2.5 hover:cursor-pointer hover:bg-gray-300 rounded pt-2 px-2 text-right">
+                          <li className="text-sm text-[#202B5D] hover:cursor-pointer hover:bg-gray-300 rounded  px-2 text-right">
                             <Link
                               to={slink.link}
                               className="hover:text-primary"
@@ -71,7 +71,7 @@ const NavLinks = () => {
           >
             {/* sublinks */}
             {link.sublinks.map((slinks) => (
-              <div>
+              <div className="pl-2">
                 <div>
                   <Link
                   to={slinks.HeadLink}
@@ -80,7 +80,7 @@ const NavLinks = () => {
                         ? setSubHeading(slinks.Head)
                         : setSubHeading("")
                     }
-                    className="py-4 pl-7 md:pr-0 pr-5 flex justify-between items-center md:pr-0 pr-5 "
+                    className="py-4 pl-7 flex justify-between items-center md:pr-0 pr-5 "
                   >
                     {slinks.Head}
 

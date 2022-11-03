@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import NavLinks from '../Navbar/NavLinks';
 import SimpleNavBar from '../Navbar/SimpleNavBar';

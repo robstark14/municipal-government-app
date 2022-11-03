@@ -8,9 +8,11 @@ import Fade from "react-reveal/Fade";
 
 function Footer() {
   return (
-    <div className="bg-stone-800  lg:px-28 pt-14 px-10 pb-10">
+    <div className="relative bg-[url('https://res.cloudinary.com/dsmtfnutw/image/upload/v1667491269/San%20Lorenzo%20Ruiz%20App/IMAGES/Others/hero2_xlf2na.jpg')] bg-no-repeat bg-cover relative lg:px-28 pt-14 px-10 pb-10" id="footer">
+
+          <div className="bg-blueRgba absolute top-0 left-0 w-full h-full"></div>
       <Fade bottom cascade>
-        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-20 z-50">
           <div>
             <h1 className="text-white font-semibold lg:text-2xl">Local Government of San Lorenzo Ruiz</h1>
             <p className="text-[#7A7893] xl:w-[559px] pt-4">
@@ -37,11 +39,11 @@ function Footer() {
                 </svg>
                 <div>
                   <p className="text-[#7A7893] text-sm">Have a question?</p>
-                  <h3 className="text-white">0915999999</h3>
+                  <h3 className="text-white">+63 921 845 2802</h3>
                 </div>
               </div>
 
-              <div className="flex gap-2 text-white md:pt-4 pt-4 xl:pt-0">
+              <div className="flex gap-2 text-white md:pt-4 pt-4 xl:pt-0 w-max">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-8 w-8 text-white bg-[#7A7893] rounded-full leading-4 p-2"
@@ -58,7 +60,7 @@ function Footer() {
                 </svg>
                 <div>
                   <p className="text-[#7A7893] text-sm">Contact us at</p>
-                  <h3>admin@sanlonrezo.gov</h3>
+                  <h3 className='text-[15px]'>sanlorenzoruiz.lgu@gmail.com</h3>
                 </div>
               </div>
             </div>
@@ -94,17 +96,19 @@ function Footer() {
                   <GrFacebookOption className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />
                 </span>
                 <span>
-                  <GrFacebookOption className="text-white bg-[#6366F1] rounded-full leading-4 p-2 h-8 w-8" />
+                <a href="https://www.facebook.com/sanlorenzoruizlgu" target={"_blank"}>
+              <GrFacebookOption className="text-white bg-[#6366F1] rounded-full leading-4 p-2 h-8 w-8" />
+            </a>
                 </span>
               </div>
-              <div className="relative overflow-hidden block footer-div cursor-pointer">
+              {/* <div className="relative overflow-hidden block footer-div cursor-pointer">
                 <span className="block">
                   <FiYoutube className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />
                 </span>
                 <span>
                   <FiYoutube className="text-white bg-[#c63232] rounded-full leading-4 p-2 h-8 w-8" />
                 </span>
-              </div>
+              </div> */}
             
             </div>
           </div>

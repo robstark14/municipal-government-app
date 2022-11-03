@@ -4,7 +4,8 @@ import AboutMayor from './AboutMayor'
 import Header from './Header'
 import Memos from './Memos'
 import Navbar from './Navbar/Navbar'
-import News from './News'
+import News from './News/News'
+
 import Projects from './Projects'
 
 function Home() {
@@ -13,8 +14,8 @@ function Home() {
       <Navbar />
       <Header id="home" />
       <AboutMayor />
-      <News id="news" />
       <AboutCounter />
+      <News id="news" />
       {/* <Projects /> */}
       <Memos />
     </div>

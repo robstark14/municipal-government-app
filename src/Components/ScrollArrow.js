@@ -21,7 +21,7 @@ const ScrollArrow = () => {
 
   return (
     <BsFillArrowUpCircleFill
-      className="scrollTop text-white"
+      className="scrollTop text-stone-500"
       onClick={scrollTop}
       style={{ height: 40, display: showScroll ? "flex" : "none" }}
     />

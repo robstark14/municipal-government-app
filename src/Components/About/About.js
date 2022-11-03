@@ -10,8 +10,8 @@ function About() {
     <div>
       <Navbar /> 
         <Routes>
-            <Route path='/history' element={<History />} />
-            <Route path='/localOfficials' element={<LocalOfficials />} />
+            <Route path='/history' element={<History id="history" />} />
+            <Route path='/local-officials' element={<LocalOfficials />} />
             <Route path='/org-structure' element={<OrgStructure />} />
         </Routes>
     </div>
