@@ -23,9 +23,7 @@ function PlaceDetails() {
 
   return (
     <div className="grid">
-      <div className="bg-stone-700 w-full h-[90px] mb-[90px] fixed">
         <SimpleNavBar />
-      </div>
     <div className="lg:max-w-5xl mx-auto px-4 mt-[90px]">
       <Header>
         <Description>

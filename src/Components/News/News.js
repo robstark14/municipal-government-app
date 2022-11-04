@@ -73,7 +73,7 @@ function News() {
           <div className="lg:pt-0 xl:pt-0">
           <Link to={`/news/${headline.id}`}>
 
-            <div className='overflow-hidden w-4/5 rounded-2xl'>
+            <div className='overflow-hidden w-4/5 rounded-2xl mx-auto'>
               <img
                 src={headline.image}
                 className="duration-500 hover:scale-125"
@@ -95,9 +95,9 @@ function News() {
           </div>
 
           <div className='grid gap-4'>
-            {newsData.map((news)=>{ if (news.id > 0)
+            {newsData.map((news)=>{ if (news.id > 0){
               return(
-            <Link to={`/news/${news.id -1}`} key={news.id} className="grid lg:grid-cols-2 md:items-center xl:flex-row md:bg-gray-50 py-8 rounded-2xl">
+            <Link to={`/news/${news.id}`} key={news.id} className="grid lg:grid-cols-2 md:items-center xl:flex-row md:bg-gray-50 py-8 rounded-2xl">
               <div className='overflow-hidden w-4/5 rounded-lg mx-auto'>
                 <img
                     src={news.image}
@@ -112,7 +112,7 @@ function News() {
                   {news.body.substring(0,100)}...
                 </p>
               </div>
-            </Link>)})}
+            </Link>)}})}
 
             
           </div>

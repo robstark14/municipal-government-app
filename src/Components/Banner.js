@@ -1,11 +1,18 @@
 import React from 'react'
+import Slide from "react-reveal/Slide";
 
-function Banner({bannerTitle}) {
+function Banner({bannerTitle, imageUrl}) {
   return (
-    <div className="relative bg-cover bg-center h-[500px] text-white py-4 px-2 object-fill bg-[url('https://res.cloudinary.com/dsmtfnutw/image/upload/v1667477784/San%20Lorenzo%20Ruiz%20App/IMAGES/Others/banner_vwn6hm.png')]" >
-       <div className='w-full h-full absolute top-0 left-0 opacity-90 bg-stone-900 z-50'></div>
-       <div className="relative md:w-1/2 flex flex-col justify-center items-center h-full mx-auto z-[60]">
-        <p className="font-bold text-4xl md:text-6xl uppercase pb-8 text-center px">{bannerTitle}</p>
+    <div className={`pt-[70px] font-Cabin relative bg-cover bg-center px-10 md:px-20 h-[700px] md:h-[360px] text-white py-4 px-2 object-fill overflow-hidden`} >
+       <div className='w-full h-full absolute top-0 left-0 opacity-90 bg-[#051334A8] z-50'>
+       
+       </div>
+       <img src={imageUrl} alt="" className='object-fill w-full overflow-hidden absolute left-0 right-0' />
+       <div className="relative flex flex-col justify-center h-full mx-auto z-[60]">
+        <Slide top>
+        <p className="font-bold text-6xl pb-8 text-left px">{bannerTitle}</p>
+        </Slide>
+        
         <div className='h-[3px] bg-white w-[150px]'></div>
 
         </div>  

@@ -1,4 +1,5 @@
 import React from 'react'
+import LocalOfficialHome from './About/LocalOffiicials/LocalOfficialHome'
 import AboutCounter from './AboutCounter'
 import AboutMayor from './AboutMayor'
 import Header from './Header'
@@ -17,6 +18,7 @@ function Home() {
       <AboutCounter />
       <News id="news" />
       {/* <Projects /> */}
+      <LocalOfficialHome />
       <Memos />
     </div>
   )

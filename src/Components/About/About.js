@@ -2,7 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Navbar from '../Navbar/Navbar'
 import History from './History'
-import LocalOfficials from './LocalOfficials'
+import LocalOfficials from './LocalOffiicials/LocalOfficials'
 import OrgStructure from './OrgStructure'
 
 function About() {

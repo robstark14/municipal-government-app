@@ -7,7 +7,7 @@ function Slider({ref, executeScroll}) {
   
   return (
     <div className="relative">
-      <div id="carouselExampleIndicators" className="carousel slide relative" data-bs-ride="carousel">
+      <div id="carouselExampleIndicators" className="carousel slide relative h-[700px] overflow-hidden" data-bs-ride="carousel">
         <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
           <button
             type="button"
@@ -46,35 +46,35 @@ function Slider({ref, executeScroll}) {
           <div className="carousel-item active float-left w-full">
             <img
                   src="https://res.cloudinary.com/dsmtfnutw/image/upload/v1667478089/San%20Lorenzo%20Ruiz%20App/IMAGES/Tourism/slider/zip-line3_b1gzjf.webp"
-                  className="block w-full"
+                  className="block w-full h-full object-cover"
               
             />
           </div>
           <div className="carousel-item float-left w-full">
             <img
                   src="https://res.cloudinary.com/dsmtfnutw/image/upload/v1667478031/San%20Lorenzo%20Ruiz%20App/IMAGES/Tourism/slider/mampurog2_i9b0kc.jpg"
-                  className="block w-full"
+                  className="block w-full h-full object-cover"
               
             />
           </div>
           <div className="carousel-item float-left w-full">
             <img
             src="https://res.cloudinary.com/dsmtfnutw/image/upload/v1667478483/San%20Lorenzo%20Ruiz%20App/IMAGES/Tourism/slider/nacali-falls_fov1kv.jpg"
-            className="block w-full"
+            className="block w-full h-full object-cover"
               
             />
           </div>
           <div className="carousel-item float-left w-full">
             <img
             src="https://res.cloudinary.com/dsmtfnutw/image/upload/v1667478144/San%20Lorenzo%20Ruiz%20App/IMAGES/Tourism/slider/env-park_e7ylyz.jpg"
-            className="block w-full"
+            className="block w-full h-full object-cover"
               
             />
           </div>
           <div className="carousel-item float-left w-full">
             <img
             src="https://res.cloudinary.com/dsmtfnutw/image/upload/v1667477983/San%20Lorenzo%20Ruiz%20App/IMAGES/Tourism/slider/mampurog3_pg4lev.jpg"
-            className="block w-full"
+            className="block w-full h-full object-cover"
               
             />
           </div>

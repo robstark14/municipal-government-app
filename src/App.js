@@ -26,6 +26,7 @@ function App() {
   return (
     <div className="App font-link">    
       {/* <Router> */}
+      {/* <Preloader /> */}
       <ScrollToTop smooth />
         <Routes>
           <Route path='*' element={<Home />} />

@@ -20,7 +20,7 @@ function Header() {
     // bg-[url('https://res.cloudinary.com/dsmtfnutw/image/upload/v1667483281/San%20Lorenzo%20Ruiz%20App/IMAGES/Others/thrill_luvtho.jpg')] 
     // bg-[length:400px_300px] md:bg-[length:600px_500px] bg-bottom md:bg-right z-10"
     >
-      <div id="carouselExampleIndicators" className="carousel slide relative mt-[70px]" data-bs-ride="carousel">
+      <div id="carouselExampleIndicators" className="carousel slide relative mt-[70px] h-[700px]" data-bs-ride="carousel">
         <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4 z-50">
           <button
             type="button"
@@ -77,14 +77,14 @@ function Header() {
             Discover
           </Link>
          </div>
-            <img src="https://res.cloudinary.com/dsmtfnutw/image/upload/v1667491268/San%20Lorenzo%20Ruiz%20App/IMAGES/Others/hero3_imkmhs.jpg"/>
+            <img className="block w-full h-full object-cover" src="https://res.cloudinary.com/dsmtfnutw/image/upload/v1667585846/San%20Lorenzo%20Ruiz%20App/IMAGES/Others/hero3_urddny.jpg"/>
             
           </div>
           <div className="carousel-item float-left w-full bg-darkBlue">
           {/* <Jello top> */}
             <img
                   src="https://res.cloudinary.com/dsmtfnutw/image/upload/v1667499297/San%20Lorenzo%20Ruiz%20App/IMAGES/Others/thrill2_judmf9.jpg"
-                  className="block w-full h-fit"
+                  className="block w-full h-full object-cover"
               
             />
           {/* </Jello> */}

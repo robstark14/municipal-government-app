@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import links from "./MyLinks";
+import Fade from "react-reveal/Fade";
+import Flip from "react-reveal/Flip";
+
 
 const NavLinks = () => {
   const [heading, setHeading] = useState("");
@@ -32,7 +35,7 @@ const NavLinks = () => {
               </span>
             </h1>
             {link.submenu && (
-              <div>
+              <Flip bottom>
                 <div className="absolute top-12 hidden group-hover:md:block hover:md:block">
                   <div className="py-3">
                     <div
@@ -60,7 +63,7 @@ const NavLinks = () => {
                     ))}
                   </div>
                 </div>
-              </div>
+              </Flip>
             )}
           </div>
           {/* Mobile menus */}

@@ -6,6 +6,7 @@ import { FiYoutube } from "react-icons/fi";
 import { GrTwitter } from "react-icons/gr";
 import { AiTwotoneMail } from "react-icons/ai";
 import { AiOutlinePhone } from "react-icons/ai";
+import Slide from "react-reveal/Slide";
 
 
 
@@ -18,7 +19,7 @@ function Heading() {
         <span className='md:ml-2'>GOVPH</span>
         <p className='text-[11px] md:ml-6'>Official Website of the Municipality of San Lorenzo Ruiz</p>
       </div>
-      <div className='grid items-center justify-items-center md:flex lg:flex mx-auto md:mx-0 lg:mx-0'>
+      <div className='grid items-center justify-items-center md:flex lg:flex md:mx-0 lg:mx-0'>
         <div className='flex w-fit'>
           <AiTwotoneMail className='text-[17px]'/>
           <a href="#" className='ml-2 text-[11px]'>sanlorenzoruiz.lgu@gmail.com</a>

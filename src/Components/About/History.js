@@ -28,17 +28,17 @@ function History() {
                     <img src="https://res.cloudinary.com/dsmtfnutw/image/upload/v1667477708/San%20Lorenzo%20Ruiz%20App/IMAGES/About/History/saint_qtxx7g.jpg" alt="" />
                    </Fade>               */}
 
-                   <Slide left>
+                   <Slide left cascade>
 
                     <img src="https://res.cloudinary.com/dsmtfnutw/image/upload/v1667477701/San%20Lorenzo%20Ruiz%20App/IMAGES/About/History/saint2_erlmjg.png" alt="" />
                    </Slide>              
 
-                   <Slide left>
+                   <Slide left cascade>
 
                     <img src="https://res.cloudinary.com/dsmtfnutw/image/upload/v1667477701/San%20Lorenzo%20Ruiz%20App/IMAGES/About/History/saint3_px9bzt.jpg" alt="" />
                    </Slide>              
 
-                   <Slide left>
+                   <Slide left cascade>
 
                     <img src="https://res.cloudinary.com/dsmtfnutw/image/upload/v1667477701/San%20Lorenzo%20Ruiz%20App/IMAGES/About/History/saint4_iih19z.jpg" alt="" />
                    </Slide>              
@@ -46,6 +46,8 @@ function History() {
                   
                   
                   </div>
+        
+
                   <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 sm:text-left">
                       <div className="leading-relaxed text-lg mb-4 text-gray-500 indent">
                       
@@ -63,6 +65,8 @@ function History() {
 
                       </div>
                   </div>
+                                
+
               </div>
           </div>
       </div>

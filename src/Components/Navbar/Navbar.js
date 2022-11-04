@@ -21,7 +21,7 @@ import { HashLink } from "react-router-hash-link";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="font-Lora w-full">
+    <nav className="font-Lora w-full bg-darkBLue">
       <HideOn atHeight height={10} >   
         {!open && <Heading id="hide"/>}
       </HideOn >
@@ -45,19 +45,19 @@ const Navbar = () => {
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
           </div>
         </div>
-        <ul className="md:flex hidden uppercase items-center gap-8 font-Cabin">
-          <li className="hover:text-stone-400 relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-stone-400 before:hover:scale-x-100 before:scale-x-0 before:origin-top-left before:transition before:ease-in-out before:duration-300">
-            <Link to="/" className="py-2 inline-block">
+        <ul className="md:flex hidden uppercase items-center gap-8 font-Cabin text-white">
+          <li className="text-white hover:text-stone-400 relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-stone-400 before:hover:scale-x-100 before:scale-x-0 before:origin-top-left before:transition before:ease-in-out before:duration-300">
+            <Link to="/" className="py-2 inline-block text-white">
               Home
             </Link>
           </li>
-          <li className="hover:text-stone-400 relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-stone-400 before:hover:scale-x-100 before:scale-x-0 before:origin-top-left before:transition before:ease-in-out before:duration-300">
-            <Link to="/tourism" className="py-2 inline-block">
+          <li className="text-white hover:text-stone-400 relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-stone-400 before:hover:scale-x-100 before:scale-x-0 before:origin-top-left before:transition before:ease-in-out before:duration-300">
+            <Link to="/tourism" className="py-2 inline-block text-white">
               Tourism
             </Link>
           </li>
-          <li className="hover:text-stone-400 relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-stone-400 before:hover:scale-x-100 before:scale-x-0 before:origin-top-left before:transition before:ease-in-out before:duration-300">
-            <HashLink to='/#news' smooth className="py-2 inline-block">
+          <li className="text-white hover:text-stone-400 relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-stone-400 before:hover:scale-x-100 before:scale-x-0 before:origin-top-left before:transition before:ease-in-out before:duration-300">
+            <HashLink to='/#news' smooth className="py-2 inline-block text-white">
              News
             </HashLink>
           </li>
